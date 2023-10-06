@@ -41,12 +41,15 @@ function generatePassword() {
   
   // Generates the random password
 let password = '';
+// Empty string to store the generated pw
 for (let i = 0; i < pwLength; i++) {
+  // Generates random index from length
   const randomIndex = Math.floor(Math.random() * allowedChars.length);
+  // Uses random index to pick character and append to pw
   password += allowedChars[randomIndex];
   } 
-
   return password;
+  //Loops through the given length
 }
 
 // Get references to the #generate element
