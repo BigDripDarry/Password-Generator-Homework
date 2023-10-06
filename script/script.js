@@ -36,20 +36,18 @@ function generatePassword() {
     //Checks to see if user input valid characters
     if (allowedChars === '') {
       alert('Please select a valid character to use in your password!');
+      return '';
     }
-
-    return password;
-};
-
-// Generates the random password
+  
+  // Generates the random password
 let password = '';
-
 for (let i = 0; i < pwLength; i++) {
   const randomIndex = Math.floor(Math.random() * allowedChars.length);
   password += allowedChars[randomIndex];
+  } 
 
   return password;
-} 
+}
 
 // Get references to the #generate element
 const generateBtn = document.querySelector("#generate");
