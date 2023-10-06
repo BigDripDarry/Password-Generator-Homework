@@ -1,5 +1,12 @@
 # Password Generator Starter Code
 
+## Table Of Contents
+1. Description
+2. Installation (Including Image)
+3. Usage
+4. Credits
+5. License
+
 ## Description
 
 Is a random password generator, that when is given criteria, generates a random password!
@@ -18,7 +25,7 @@ Consists of clicking the "Generate Password" button, which then prompts users wi
 
 Darrel Saephan -Author
 With the help of TA's and AskBCS
-They had helped by giving examples of code, then me reiterating the example to work with my code. Lines of code that I did receive from a a helper in AskBCS was 43-51 (comments were my own). The helper explained to me everything needed ti understand it!
+They had helped by giving examples of code, then me reiterating the example to work with my code. Lines of code that I did receive from a a helper in AskBCS was 43-51 (comments were my own). The helper explained to me everything needed to understand it!
 
 ## License
 
