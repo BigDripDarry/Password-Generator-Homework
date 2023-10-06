@@ -3,10 +3,10 @@ function generatePassword() {
   //Prompts users these questions
   const pwLength = parseInt (prompt("Length of Password (8-128)"));
 
-  const lowerCase = prompt ("Lowercase (Yes or No?)")
-  const upperCase = prompt ("Uppercase (Yes or No?)");
-  const nums = prompt ("Numbers (Yes or No?)")
-  const specialChars = prompt ("Special Characters (Yes or No?)");
+  const lowerCase = prompt ("Lowercase (Yes or No?)").toLowerCase();
+  const upperCase = prompt ("Uppercase (Yes or No?)").toLowerCase();
+  const nums = prompt ("Numbers (Yes or No?)").toLowerCase();
+  const specialChars = prompt ("Special Characters (Yes or No?)").toLowerCase();
 
 };
 
