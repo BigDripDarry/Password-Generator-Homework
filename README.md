@@ -8,6 +8,8 @@ Is a random password generator, that when is given criteria, generates a random 
 
 ![PwGen](https://github.com/BigDripDarry/password-generator-homework/assets/138957749/22714d70-dbd9-4ea1-9117-a9cc57c099e5)
 
+https://bigdripdarry.github.io/password-generator-homework/
+
 ## Usage
 
 Consists of clicking the "Generate Password" button, which then prompts users with a couple of questions to figure out what criteria is needed to be met, then creates a random password fulfilling the criterias that're met!
