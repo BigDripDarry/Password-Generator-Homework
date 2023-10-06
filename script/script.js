@@ -8,6 +8,37 @@ function generatePassword() {
   const nums = prompt ("Numbers (Yes or No?)").toLowerCase();
   const specialChars = prompt ("Special Characters (Yes or No?)").toLowerCase();
 
+  // Defines char sets
+  const lowerCaseChars = 'abcdefghijklmnopqrstuvwxyz';
+  const upperCaseChars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+  const numChars = '0123456789';
+  const specialCharacters = '!@#$%^&*()-_=+[]{}|;:,.<>?';
+
+  // Appends the char to const related to it
+  let allowedChars = ''
+
+    if (lowerCase === 'yes') {
+      allowedChars += lowerCaseChars;
+    }
+
+    if (upperCase === 'yes') {
+      allowedChars += upperCaseChars;
+    }
+
+    if (nums === 'yes') {
+      allowedChars += numChars;
+    }
+
+    if (specialChars === 'yes') {
+      allowedChars +=specialCharacters;
+    }
+
+    //checks to see if user input valid characters
+    if (allowedChars === '') {
+      alert('Please select a valid character to use in your password!');
+    }
+
+    return password;
 };
 
 // Get references to the #generate element
