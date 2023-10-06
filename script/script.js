@@ -1,16 +1,13 @@
 // Assignment code here
 function generatePassword() {
+  //Prompts users these questions
+
   const pwLength = prompt ("Length of Password (8-128)");
-  console.log(pwLength);
-
+  const lowerCase = prompt ("Lowercase (Yes or No?)")
   const upperCase = prompt ("Uppercase (Yes or No?)");
-  console.log(upperCase);
-
   const nums = prompt ("Numbers (Yes or No?)")
-  console.log(nums)
-
   const specialChars = prompt ("Special Characters (Yes or No?)");
-  console.log(specialChars);
+
 };
 
 // Get references to the #generate element
